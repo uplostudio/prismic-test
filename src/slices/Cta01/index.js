@@ -11,6 +11,7 @@ const Cta01 = ({ slice }) => {
     >
       AAAA Placeholder component for cta01 (variation: {slice.variation}) Slices
     </section>
+
   );
 };
 

@@ -1,0 +1,224 @@
+.footer {
+  position: relative;
+  padding: 80px var(--section-horizontal) 48px;
+}
+
+@media screen and (max-width: 991px) {
+  .footer {
+    padding-right: var(--section-horizontal-tablet);
+    padding-left: var(--section-horizontal-tablet);
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .footer {
+    padding: 50px var(--section-horizontal-mobile);
+  }
+}
+
+.footer.is-gray {
+  background-color: var(--grayBg-8a399b0a);
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: var(--container-max-width);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container.is-narrow {
+  max-width: 800px;
+}
+
+.footer-grid {
+  grid-column-gap: 40px;
+  grid-template-columns: 0.7fr 1fr;
+  grid-template-rows: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .footer-grid {
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 40px;
+  }
+}
+
+.footer-logo {
+  max-width: 136px;
+}
+
+.footer-logo-spacer {
+  padding-top: 48px;
+}
+
+@media screen and (max-width: 991px) {
+  .footer-logo-spacer {
+    padding-top: 32px;
+  }
+}
+
+.footer-social-list {
+  display: flex;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+}
+
+.footer-social {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsla(0, 0.00%, 84.00%, 1.00);
+  border-radius: 4px;
+}
+
+.footer-social-icon {
+  width: 20px;
+}
+
+.footer-links-grid {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-links-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .footer-links-grid {
+    grid-column-gap: 36px;
+    grid-row-gap: 36px;
+    grid-template-columns: 1fr;
+  }
+}
+
+.footer-link-title {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.footer-link-title-spacer {
+  padding-bottom: 14px;
+}
+
+.footer-link-list {
+  display: flex;
+  flex-direction: column;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+
+.footer-link {
+  font-size: 16px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.footer-divider-top-spacer {
+  padding-top: 64px;
+}
+
+@media screen and (max-width: 991px) {
+  .footer-divider-top-spacer {
+    padding-top: 52px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer-divider-top-spacer {
+    padding-top: 42px;
+  }
+}
+
+.footer-divider {
+  height: 1px;
+  background-color: hsla(0, 0.00%, 87.33%, 1.00);
+}
+
+.footer-divider-bottom-spacer {
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 991px) {
+  .footer-divider-bottom-spacer {
+    padding-top: 32px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .footer-divider-bottom-spacer {
+    padding-top: 24px;
+  }
+}
+
+.footer-bottom-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 991px) {
+  .footer-bottom-part {
+    flex-direction: column;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+}
+
+.footer-bottom-links {
+  display: flex;
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+}
+
+#w-node-cdf5e1ca-3759-e4f2-f200-6017d58211b1-d58211ae {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+}
+#w-node-cdf5e1ca-3759-e4f2-f200-6017d58211b2-d58211ae {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+}
+#w-node-cdf5e1ca-3759-e4f2-f200-6017d58211bc-d58211ae {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+}
+#w-node-cdf5e1ca-3759-e4f2-f200-6017d58211bd-d58211ae {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+}
+#w-node-cdf5e1ca-3759-e4f2-f200-6017d58211cc-d58211ae {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+}
+#w-node-cdf5e1ca-3759-e4f2-f200-6017d58211db-d58211ae {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
+}

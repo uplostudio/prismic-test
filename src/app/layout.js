@@ -1,4 +1,7 @@
-import "./globals.css";
+
+
+import "../../devlink/global.css";
+import { DevLinkProvider } from "../../devlink";
 
 import { Inter } from "next/font/google";
 import { PrismicText } from "@prismicio/react";
@@ -7,6 +10,7 @@ import * as prismic from "@prismicio/client";
 
 import { createClient, repositoryName } from "@/prismicio";
 import { Bounded } from "@/components/Bounded";
+
 
 const inter = Inter({
   subsets: ["latin"],
@@ -23,7 +27,9 @@ export default async function RootLayout({ children }) {
       <body className="overflow-x-hidden antialiased">
         {/* @ts-expect-error Async Server Component */}
         <Header />
-        {children}
+        <DevLinkProvider>
+          {children}
+        </DevLinkProvider>
         <PrismicPreview repositoryName={repositoryName} />
       </body>
     </html>
