@@ -3,7 +3,11 @@ import * as _Builtin from "./_Builtin";
 import * as _utils from "./utils";
 import _styles from "./MainCta.module.css";
 
-export function MainCta({ as: _Component = _Builtin.Section }) {
+export function MainCta({
+  as: _Component = _Builtin.Section,
+  title = "Let's work together",
+  text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae",
+}) {
   return (
     <_Component
       className={_utils.cx(_styles, "section", "is-bg-gray")}
@@ -22,9 +26,7 @@ export function MainCta({ as: _Component = _Builtin.Section }) {
             )}
             tag="div"
           >
-            <_Builtin.Heading tag="h2">
-              {"Let's work together"}
-            </_Builtin.Heading>
+            <_Builtin.Heading tag="h2">{title}</_Builtin.Heading>
             <_Builtin.Block
               className={_utils.cx(_styles, "spacer-h2")}
               tag="div"
@@ -33,11 +35,7 @@ export function MainCta({ as: _Component = _Builtin.Section }) {
               className={_utils.cx(_styles, "width-500")}
               tag="div"
             >
-              <_Builtin.Paragraph>
-                {
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae"
-                }
-              </_Builtin.Paragraph>
+              <_Builtin.Paragraph>{text}</_Builtin.Paragraph>
             </_Builtin.Block>
           </_Builtin.Block>
           <_Builtin.Block
