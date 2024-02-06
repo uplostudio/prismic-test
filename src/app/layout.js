@@ -24,7 +24,9 @@ const inter = Inter({
 export default async function RootLayout({ children }) {
   return (
     <html lang="en" className={inter.variable}>
-      <body className="overflow-x-hidden antialiased">
+      <body
+      // className="overflow-x-hidden antialiased"
+      >
         {/* @ts-expect-error Async Server Component */}
         <Header />
         <DevLinkProvider>

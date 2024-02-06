@@ -20,7 +20,7 @@ const Hero = ({ slice }) => {
 
   return (
     <Hero1
-      title={prismic.asText(slice.primary.text)}
+      title={slice.primary.title}
     />
     // <section className="relative bg-slate-900 text-white">
     //   {prismic.isFilled.image(backgroundImage) && (
