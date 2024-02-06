@@ -11,6 +11,13 @@
       "version": "sktwi1xtmkfgx8626",
       "description": "Hero",
       "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
         "text": {
           "type": "StructuredText",
           "config": {

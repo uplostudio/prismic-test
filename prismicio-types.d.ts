@@ -377,6 +377,16 @@ export type Cta01Slice = prismic.SharedSlice<"cta01", Cta01SliceVariation>;
  */
 export interface HeroSliceDefaultPrimary {
   /**
+   * Title field in *Hero → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: hero.primary.title
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  title: prismic.KeyTextField;
+
+  /**
    * Text field in *Hero → Primary*
    *
    * - **Field Type**: Rich Text
